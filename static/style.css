@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    background-color:black;
+    padding: 13px 4px;
+    font-family: 'Abyssinica SIL', serif
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    color: white;
+    font-size: 20px;
+
+    text-decoration: none;
+    padding: 13px 30px;
+}
+/*#navbar li a:hover{
+    color: yellow;
+}*/
+
+#introsection{
+    height: 500px;
+    color: white;
+    /*display:flex;
+    flex-direction: column;
+  /*  justify-content:center;*/
+    /*align-items:center;*/
+    font-size: 35px;
+    
+    background: center/cover no-repeat url("/static/fruitsmain.jpeg");
+
+}
+#introsection div.first{
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+
+}
+
+/*about section*/
+.about{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:3rem;
+}
+.about_text{
+    text-align: center;
+}
+.about_text h1{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.about_text p{
+    margin-top: 40px;
+    width: 500px;
+    text-align: center;
+    margin-left: 100px;
+    font-size: 15px;
+    line-height: 20px;
+}
+.about_image img{
+    border-radius: 15px;
+}
+
+
+
+#servicesection{
+    height: 400px;
+    margin-top: 40px;
+    
+}
+
+#servicesection h1{
+    font-size: 30px;
+}
+#servicesection {
+    text-align: center;
+    padding-top: 12px;
+    
+}
+.card{
+   
+    text-align: center;
+	background-color:#fff;
+    box-shadow:  2px 2px  18px rgb(14 52 54/15%);
+
+	/*border: 2px solid chocolate;*/
+	border-radius: 15px;
+	height: 300px;
+    width: 29%;
+	padding: 20px 35px;
+    display: inline-block;
+    margin: 23px 22px;
+
+}
+.card h2{
+    text-align: center;
+    margin: 12px;
+}
+
+#footer {
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top:15px;
+
+}

@@ -1,0 +1,47 @@
+doctype html
+html
+  head
+    title food delivery
+    style
+      include ../static/style.css
+  body
+    
+    nav#navbar
+        ul 
+            li #[a(href='/') Home]
+            li #[a(href='/') About] 
+            li #[a(href='/') Services]
+            li #[a(href='/') Contact info]
+    section#introsection
+        div.first Fresh Fruits
+        
+
+
+    section#aboutsection 
+        div.about
+            div.about_text
+                h1 About Fruits Store   
+                p At Editage, our English editing and proofreading services polish and perfect your manuscript with not one, but two thorough checks for grammar, sentence structure, paper structure.At Editage, our English editing and proofreading services polish and perfect your manuscript with not one, but two thorough checks for grammar, sentence structure, paper structure.
+            div.about_image    
+                img(src='/static/about image.webp', style='width:600px;height:300px;')  
+
+    section#servicesection
+        h1  Fruit Categories
+        div.card 
+            img(src='/static/straw.jpg', style='width:200px;height:200px;')
+            h2 strawberry;  
+        div.card 
+            img(src='/static/watermelon2.jpg', style='width:200px;height:200px;')
+            h2 watermelon;  
+
+        div.card 
+            img(src='/static/pinaaple1.jpg', style='width:200px;height:200px;')
+            h2 Pineapple;  
+              
+
+           
+    footer#footer 
+        | copyright 0 2019 foodDilevery.com | All rights reserved      
+
+    script
+      include ../static/index.js
